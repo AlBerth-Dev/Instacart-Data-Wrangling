@@ -5,7 +5,19 @@ The objective of this project is to clean the data and prepare a report that pro
 
 Throughout the work, graphics will be created to communicate the results through the matplotlib.pyplot library.
 
-# Data Description:
+## General Conclusion of the analysis
+In this project, the data from a commerce was analyzed. To do this, the raw data was read and preprocessed to correct any errors that could affect the analysis, such as duplicates, missing values, or errors in reading the raw data.
+
+Subsequently, when analyzing the preprocessed data, important conclusions were reached for the business performance, such as:
+- ***Most productive business hours***: hours and days of the week with the highest sales
+- ***User habits***: How many orders they make, how many products they buy per order, and how often they usually buy, as well as which products they usually buy regularly
+- ***Information about orders***: How many orders per customer, how many products each order contains
+- ***Information about products***: Which are the best-selling products, the products that are most frequently re-purchased, and the products that are added first to the cart.
+
+With this information, strategies can be generated to improve the sales performance of the most popular products and, at the same time, adapt to the purchasing habits of users.
+___
+
+### Data Description:
 Below is a data dictionary listing the columns of each table and describing the data they contain.
 
 ### instacart_orders.csv
